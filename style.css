@@ -1,0 +1,56 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  margin-bottom: 15px;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  margin: 0px 8px;
+}
+
+button:active {
+  box-shadow: inset 40px 40px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.rangeButton {
+  margin-bottom: 10px;
+}
+
+.text {
+  width: 30px;
+  height: 20px;
+  font-size: 1rem;
+  font-weight: 900;
+  text-align: center;
+}
