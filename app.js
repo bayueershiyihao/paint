@@ -1,9 +1,6 @@
-const canvas = document.createElement("canvas");
+const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 document.body.appendChild(canvas);
-canvas.style.backgroundColor = "#eee";
-canvas.width = "800";
-canvas.height = "600";
 
 const buttons = document.querySelectorAll("button");
 const range = document.querySelector("input");
